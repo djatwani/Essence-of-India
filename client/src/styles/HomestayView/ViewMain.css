@@ -1,0 +1,11 @@
+.view-main{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box                                ;
+    background: linear-gradient(180deg, #B01432 0%, #FFA900 100%);
+    min-height: 100vh;
+    /* min-width: 100vw; */
+    font-family: 'Poppins';
+    font-style: normal;
+    padding-top: 2rem;
+}

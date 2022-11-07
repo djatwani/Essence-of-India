@@ -1,0 +1,30 @@
+.exploreCity{
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    /* border: 2px solid black; */
+    width: 80vw;
+}
+.ExploreCityMain{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    width: 80vw;
+}
+.ExploreCityHead{
+    color: white;
+    font-size: 4vh;
+    font-weight: 600;
+}
+.exploreCity .cardCont{
+    display: flex;
+    justify-content: space-around;
+}
+.ExploreCards{
+    margin-top: 2%;
+    display: flex;
+    /* padding-left: 4vw; */
+    align-items: center;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+}

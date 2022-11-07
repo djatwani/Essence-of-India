@@ -1,0 +1,67 @@
+.section2Cont{
+    min-height: 100vh;
+    min-width: 100vh;
+    background-image: url('../../assets/LandingPage-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section2Cont .container .header{
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 2rem;
+}
+.section2Cont .container .header h1{
+    font-weight: 600;
+    text-align: center;
+    font-size: 3rem;
+    color: #FFFFFF;
+    /* border: 2px solid black; */
+}
+.section2Cont .container .header .underline{
+    border: 2px solid #FFFFFF;
+    background-color: #FFFFFF;
+    height: 0.2rem;
+    width: 16rem;
+}
+.section2Cont .container .cardCont{
+    /* border: 2px solid black; */
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.prev,.next{
+    color: #FFFFFF;
+    font-size: 3rem;
+    cursor: pointer;
+}
+.bottom{
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bottom .viewAll{
+    background-color: transparent;
+    border: 2px solid #B01432;
+    border-radius: 64px;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    color: #B01432;
+}
+.section2Cont .findYourHome{
+    /* border: 2px solid black; */
+    padding-bottom: 1rem;
+    width: 100%;
+}
+.section2Cont .section1{
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}

@@ -1,0 +1,10 @@
+.searchCardCont{
+    padding-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.searchCardCont .card{
+    margin: 1rem;
+}

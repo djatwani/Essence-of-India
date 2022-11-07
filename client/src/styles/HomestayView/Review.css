@@ -1,0 +1,23 @@
+.review-layout{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    align-items: center;
+}
+.review-head{ 
+    /* margin-left: 100px; */
+    /* border: 2px solid black; */
+    /* padding-left: 3vw; */
+    width: 80vw;
+    color: white;
+    font-size: 1.5rem;
+}
+.review-head .star{
+    color: #B01432;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+}

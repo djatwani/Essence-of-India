@@ -1,0 +1,64 @@
+.ImageView{
+    /* width: 100vw; */
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black; */
+}
+/* .ImageView .ImageView-top{
+    border: 2px solid black;
+} */
+.place-name{
+    display: flex;
+    /* width: 100vw; */
+    font-weight: 600;
+    font-size: 36px;
+    color: #FFFFFF;
+    margin-bottom: 1vh;
+    padding-left: 10vw;
+}
+.review-place{
+    /* min-width: 100vw; */
+    display: flex;
+     color: #FFFFFF;
+     align-items: center;
+     margin-bottom: 2vh;
+     padding-left: 10vw;
+}
+.review{
+    margin-right: 1vw;
+}
+.point, .num{
+    border-right: 1px solid #FFFFFF;
+    padding-right: 1vw;
+}
+.place-images{
+    /* min-width: 100vw; */
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid black; */
+}
+.images-left{
+    width: 40vw;
+    padding-right: .5vw;
+}
+.img-left{
+    height: 100%;
+    width: 100%;
+}
+.images-right{
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: .5vw;
+}
+.right-top,.right-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.img-right{
+    width:19vw;
+}
+.star{
+    color: white;
+}

@@ -1,0 +1,172 @@
+.desc-main{
+    display: flex;
+    flex-direction: column;
+    /* width: 100vw; */
+    padding: 2vw 10vw;
+    /* border: 2px solid black; */
+}
+.desc-main .popupCont{
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background-color: transparent;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.desc-main .popup{
+    height: 28rem;
+    width: 28rem;
+    background-color: white;
+    border-radius: 18px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: none;
+    box-shadow: 0px 0px 100px 100px rgba(0,0,0,0.3);
+}
+.desc-main .popup .tick{
+    font-size: 5rem;
+    color: rgb(129, 199, 24);
+    margin-bottom: 1rem;
+}
+.desc-top{
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    font-size: 3vh;
+    border-bottom: 1px solid white;
+    /* border: 2px solid black; */
+}
+.desc-items{
+    display: flex;
+}
+.desc-items>div{
+    margin-right: 1vw;
+}
+.desc-left{
+    width: 60vw;
+    /* border: 2px solid black; */
+
+}
+.desc-content{
+    display: flex;
+    /* height: 40vh; */
+    margin-top: 4vh;
+    color: #FFFFFF;
+    border-bottom: 1px solid white;
+    /* border: 2px solid black; */
+}
+.top-border{
+    height: 1;
+    border-bottom: 1px solid white;
+
+}
+.right-box{
+    min-width: 20vw;
+    min-height: 35vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 24px;
+    padding: 2vw 1vw;
+    color: black;
+    /* border: 2px solid black; */
+
+}
+.pay-box-top{
+    display: flex;
+    justify-content: space-around;
+}
+.pay-box-cont{
+    background: #FFFFFF;
+    border: 1px solid black;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0rem;
+}
+.pay-box-cont .guestsBox{
+    /* border: 2px solid black; */
+    padding: 0.5rem 1rem;
+}
+.check-in-out{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid black;
+}
+.bookbutton{
+    background-color: #B01432;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 22.1854px;
+    border-radius: 9.24393px;
+    width: 334px;
+    height: 64.43px;
+    cursor: pointer;
+    z-index: 1;
+}
+.check-in{
+    border-right: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0.5rem 1rem;
+    width: 50%;
+}
+.check-in .check-in-name, .check-out .check-out-name{
+    color: #858585;
+    font-weight: 600;
+}
+.check-in .check-in-value, .check-out .check-out-value{
+    font-weight: 600;
+}
+.check-out{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0.5rem 1rem;
+    width: 50%;
+}
+.left-top{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    color: white;
+    margin-top: 1vh;
+    margin-left: 2vh;
+    /* border: 2px solid black; */
+}
+.left-top>div{
+    width: 40vw;
+    margin-bottom: 3vh;
+}
+.left-top-bottom{
+    width: fit-content;
+    border: 1px solid white;
+    background-color: white;
+}
+.left-bottom{
+    padding: 2%;
+}
+.left-bottom-head{
+    font-size: 2vh;
+    font-weight: 600;
+}
+.desc-right{
+    padding: 1vw;
+    /* border: 2px solid black; */
+}

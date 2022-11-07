@@ -1,0 +1,19 @@
+.review-main{
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    color: #ffff;
+    margin: 1vw;
+    /* border: 2px solid black; */
+    padding: 1rem;
+}
+.review-top{
+    display: flex;
+}
+.review-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 1vw;
+}

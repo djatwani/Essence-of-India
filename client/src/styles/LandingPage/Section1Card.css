@@ -1,0 +1,18 @@
+.cardSection1{
+    /* border: 2px solid black; */
+    height: 28rem;
+    width: 65rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+.cardSection1 p{
+    color: #ffffff;
+    font-size: 2rem;
+    margin-left: 4rem;
+    margin-bottom: 2.5rem;
+}
